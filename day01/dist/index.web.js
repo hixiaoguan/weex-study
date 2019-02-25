@@ -8939,7 +8939,7 @@ _weexVueRender2.default.init(_vue2.default);
 var _require = __webpack_require__(10),
     router = _require.router;
 
-var App = __webpack_require__(17);
+var App = __webpack_require__(18);
 /* eslint-disable no-new */
 new _vue2.default(_vue2.default.util.extend({ el: '#root', router: router }, App));
 router.push('/');
@@ -22813,9 +22813,9 @@ function injectStyle (ssrContext) {
 }
 var Component = __webpack_require__(4)(
   /* script */
-  __webpack_require__(24),
-  /* template */
   __webpack_require__(16),
+  /* template */
+  __webpack_require__(17),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -22881,7 +22881,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\n.helloworld{\n  position: relative;\n}\n.box1{\n  width:4rem;\n  height:4rem;\n  border-width: 0.06667rem;\n  border-color:yellow;\n  border-style: solid;\n  background-color: red;\n  left:0;\n  top: 0;\n  position: absolute;\n  background-image:-webkit-linear-gradient(bottom,red,white);\n  background-image:linear-gradient(to top,red,white);\n}\n.box2{\n  width:4rem;\n  height:4rem;\n  background-color: greenyellow;\n  left:0;\n  top: 2.53333rem;\n  position: absolute;\n  flex-direction: row;\n}\n.box2img{\n  width: 1.33333rem;\n  height: 1.33333rem;\n  border-bottom-left-radius: 0.26667rem;\n}\n.box3{\n  width:1.33333rem;\n  height:1.33333rem;\n  background-color: blue;\n}\n.box4{\n  width:1.33333rem;\n  height:1.33333rem;\n  border-bottom-left-radius: 0.26667rem;\n  background-color:chocolate;\n}\n\n", ""]);
+exports.push([module.i, "\n.helloworld{\n  position: relative;\n}\n.box1{\n  width:4rem;\n  height:4rem;\n  border-width: 0.06667rem;\n  border-color:yellow;\n  border-style: solid;\n  background-color: red;\n  left:0;\n  top: 0;\n  position: absolute;\n  background-image:-webkit-linear-gradient(bottom,red,white);\n  background-image:linear-gradient(to top,red,white);\n}\n.box2{\n  width:4rem;\n  height:4rem;\n  background-color: greenyellow;\n  left:0;\n  top: 2.53333rem;\n  position: absolute;\n  flex-direction: row;\n}\n.box2img{\n  width: 1.33333rem;\n  height: 1.33333rem;\n  border-bottom-left-radius: 0.26667rem;\n}\n.box3{\n  width:1.33333rem;\n  height:1.33333rem;\n  background-color: blue;\n}\n.box4{\n  width:1.33333rem;\n  height:1.33333rem;\n  border-bottom-left-radius: 0.26667rem;\n  background-color:chocolate;\n}\n.box5{\n  width: 10rem;\n  height: 1.33333rem;\n  background-color:cadetblue;\n  color:#fff;\n  top:8rem;\n}\n\n", ""]);
 
 // exports
 
@@ -22923,6 +22923,101 @@ module.exports = function listToStyles (parentId, list) {
 /* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+exports.default = {
+  data: function data() {
+    return {
+      logo: 'https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2826937859,1390624465&fm=173&app=49&f=JPEG?w=636&h=358&s=AF33C4045347115DCA5B5E8A03007088'
+    };
+  }
+};
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "helloworld weex-ct weex-div",
@@ -22961,7 +23056,26 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       "data-img-src": _vm.logo,
       "weex-type": "image"
     }
-  })])])
+  })]), _vm._v(" "), _c('div', {
+    staticClass: "box5 weex-ct weex-div",
+    attrs: {
+      "weex-type": "div"
+    }
+  }, [_c('a', {
+    staticClass: " weex-ct weex-a",
+    attrs: {
+      "href": "http://dotwe.org/raw/dist/a5e3760925ac3b9d68a3aa0cc0298857.bundle.wx",
+      "weex-type": "a"
+    },
+    on: {
+      "weex$tap": _vm.$stopPropagation
+    }
+  }, [_c('p', {
+    staticClass: " weex-el weex-text",
+    attrs: {
+      "weex-type": "text"
+    }
+  }, [_vm._v("\n        A组件\n      ")])])])])
 },staticRenderFns: []}
 module.exports.render._withStripped = true
 if (false) {
@@ -22972,19 +23086,19 @@ if (false) {
 }
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(18)
+  __webpack_require__(19)
 }
 var Component = __webpack_require__(4)(
   /* script */
-  __webpack_require__(20),
-  /* template */
   __webpack_require__(21),
+  /* template */
+  __webpack_require__(22),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -23016,13 +23130,13 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(19);
+var content = __webpack_require__(20);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -23042,7 +23156,7 @@ if(false) {
 }
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(2)(false);
@@ -23056,7 +23170,7 @@ exports.push([module.i, "\n.wrapper[data-v-d9362752] {\n  justify-content: top;\
 
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23082,7 +23196,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -23100,88 +23214,6 @@ if (false) {
      require("vue-hot-reload-api").rerender("data-v-d9362752", module.exports)
   }
 }
-
-/***/ }),
-/* 22 */,
-/* 23 */,
-/* 24 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-exports.default = {
-  data: function data() {
-    return {
-      logo: 'https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2826937859,1390624465&fm=173&app=49&f=JPEG?w=636&h=358&s=AF33C4045347115DCA5B5E8A03007088'
-    };
-  }
-};
 
 /***/ })
 /******/ ]);

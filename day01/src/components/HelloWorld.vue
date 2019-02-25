@@ -8,6 +8,13 @@
       <div class="box4">44</div>
       <image :src="logo" class="box2img"></image>
     </div>
+    <div class="box5">
+      <a href="http://dotwe.org/raw/dist/a5e3760925ac3b9d68a3aa0cc0298857.bundle.wx">
+        <text>
+          A组件
+        </text>
+      </a>
+    </div>
   </div>
 </template>
 <style>
@@ -55,6 +62,14 @@
   height:100px;
   border-bottom-left-radius: 20px;
   background-color:chocolate;
+}
+
+.box5{
+  width: 750px;
+  height: 100px;
+  background-color:cadetblue;
+  color:#fff;
+  top:600px;
 }
 
 </style>
